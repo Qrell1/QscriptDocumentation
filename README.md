@@ -11,7 +11,7 @@ qsr install <proj> qsrt
 
 Подключение в коде:
 ```c
-include "\qsrt\qsr.qh"; // В include точка с запятой обязательна!
+include "\qsrt\qsr.qh"
 ```
 
 ## Инициализация
