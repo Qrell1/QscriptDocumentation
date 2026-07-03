@@ -121,7 +121,7 @@ printq(result)
 mfree(result)
 ```
 
-### ConvertStringToInt(строка)
+### StringToInt(строка)
 
 Преобразует строку в целое число.
 
@@ -164,17 +164,8 @@ printq @string (result)  // "Hello Q"
 mfree(result)
 ```
 
-### int_to_str(число)
 
-Преобразует число в строку (внутренняя функция, используется оператором `@int32`).
-
-```c
-string* strNum = @int32(42)  // "42"
-printq @string (strNum)
-mfree(strNum)
-```
-
-### strlen(строка)
+### qsr.string_len(строка)
 
 Возвращает длину строки в символах.
 
