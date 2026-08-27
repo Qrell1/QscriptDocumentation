@@ -187,7 +187,7 @@ arr[0] = 10
 arr[1] = 20
 arr[2] = 30
 
-for (int32 i = 0; i < 5; i++) {
+enumerator int32 i, 5
     arr[i] = i * 10;
 }
 
